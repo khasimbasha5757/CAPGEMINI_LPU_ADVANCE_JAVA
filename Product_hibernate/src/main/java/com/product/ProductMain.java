@@ -8,14 +8,14 @@ public class ProductMain {
 
         ProductDetails pd = new ProductDetails();
 
-        // INSERT
-//        Product p = new Product();
-//        p.setId(2);
-//        p.setName("phone");
-//        p.setQuantity(2);
-//        p.setPrice(51000);
-//
-//        pd.insertProduct(p);
+//         INSERT
+        Product p = new Product();
+        p.setId(2);
+        p.setName("phone");
+        p.setQuantity(2);
+        p.setPrice(51000);
+
+        pd.insertProduct(p);
 
         // FIND
 //        Product found = pd.findProduct(1);

@@ -1,4 +1,5 @@
-package com.produc
+package com.product;
+
 
 
 
