@@ -1,14 +1,20 @@
 package com.onetoonemapping;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 
 
 @Entity
 public class Car {
 	@Id
 	private int id;
+	public Engine getEngine() {
+		return engine;
+	}
+	public void setEngine(Engine engine) {
+		this.engine = engine;
+	}
 	private String brand;
 	private String model;
 	private String modelYear;

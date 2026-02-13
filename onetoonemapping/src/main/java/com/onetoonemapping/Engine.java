@@ -1,8 +1,8 @@
 package com.onetoonemapping;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 
 @Entity
 public class Engine {
@@ -10,6 +10,12 @@ public class Engine {
 	private int id;
 	private String type;
 	private String fuelType;
+	public Car getCar() {
+		return car;
+	}
+	public void setCar(Car car) {
+		this.car = car;
+	}
 	private String mileage;
 	private String cc;
 	

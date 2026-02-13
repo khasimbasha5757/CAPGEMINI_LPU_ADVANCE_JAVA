@@ -26,10 +26,12 @@
 			<version>5.11.4</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.practice</groupId>
-			<artifactId>Product_hibernate</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+<!-- Source: https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-junit-jupiter</artifactId>
+    <version>5.11.0</version>
+    <scope>test</scope>
+</dependency>
 	</dependencies>
 </project>
