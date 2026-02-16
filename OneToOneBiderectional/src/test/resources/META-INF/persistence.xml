@@ -12,8 +12,7 @@
 			<property name="javax.persistence.jdbc.url"
 				value="jdbc:postgresql://localhost:5432/school" />
 			<!-- DB Name -->
-			<property name="javax.persistence.jd
-			bc.user"
+			<property name="javax.persistence.jdbc.user"
 				value="postgres" />
 			<!-- DB User -->
 			<property name="javax.persistence.jdbc.password"

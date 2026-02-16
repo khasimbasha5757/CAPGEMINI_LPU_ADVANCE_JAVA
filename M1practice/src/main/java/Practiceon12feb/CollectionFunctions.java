@@ -2,7 +2,7 @@ package Practiceon12feb;
 import java.util.*;
 public class CollectionFunctions {
 	public static void main(String[] args) {
-			List<Student> l=new LinkedList<>();
+			TreeSet<Student> l=new	TreeSet<>(new StudentComparator());
 			Student s1=new Student(101,"Khasim",98);
 			Student s2=new Student(101,"Aravind",35);
 			Student s3=new Student(103,"Swarna",88);
@@ -13,9 +13,7 @@ public class CollectionFunctions {
 			l.add(s3);
 			l.add(s4);
 			l.add(s5);
-			Collections.sort(l,new StudentComparator());
-			
-						for(Student a:l) {
+		for(Student a:l) {
 			System.out.println(a);
 	}
 }
